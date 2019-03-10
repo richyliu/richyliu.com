@@ -1,0 +1,25 @@
+{
+  "name": "richyliu.com",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel --port=8000 src/index.html",
+    "build": "parcel build --no-source-maps src/index.html",
+    "deploy": "surge ./dist/ richyliu.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/richyliu/richyliu.com.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/richyliu/richyliu.com/issues"
+  },
+  "homepage": "https://github.com/richyliu/richyliu.com#readme",
+  "dependencies": {
+    "parcel": "^1.12.0"
+  }
+}
